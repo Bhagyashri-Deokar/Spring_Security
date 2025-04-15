@@ -14,7 +14,8 @@ public class CustomAuthenticationEntryPoint implements AuthenticationEntryPoint 
     @Override
     public void commence(HttpServletRequest request,
                          HttpServletResponse response,
-                         AuthenticationException authException) throws IOException {
+                         AuthenticationException authException) throws IOException 
+    {
 
         String json = "{"
                 + "\"status\":401,"
